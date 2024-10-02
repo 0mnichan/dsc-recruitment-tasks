@@ -1,0 +1,52 @@
+
+
+RECRUITMENTS 24-25 
+
+(TECHNICAL DOMAIN)
+CYBER SECURITY TASK
+
+1. Hands-on Tasks Questions
+(1). FINDING THE FOLLOWING HIDDEN TEXT BY DOING EITHER ENCRYPTION OR DECRYPTION
+ eW91IGd1ZXNzZWQgaXQgcmlnaHQsIHRoaXMgaXMgQkFTRTY0ISE=
+ 
+ 
+ answer:
+ you guessed it right, this is BASE64!!
+ 
+(2). FINDING THE FOLLOWING HIDDEN TEXT BY DOING EITHER ENCRYPTION OR DECRYPTION
+%3Cscript%3Eyou%20found%20us%21%21%281%29%3C%2Fscript%3E.
+
+answer:
+<script>you found us!!(1)</script>.
+
+
+(3). FINDING THE FOLLOWING HIDDEN TEXT BY DOING EITHER ENCRYPTION OR DECRYPTION
+LWxb ZWxfTTTua pfdw6HUU wbbis bnsf6
+
+answer: 😭😭😭😭😭😭bro what even is this dawg
+ive tried every rot, cipher, i cant get it, plz help
+
+
+2. Coding and Debugging Questions (NOTE: Any language can be used)
+Task 1 - Write a basic program for a function that checks if a password contains at least one lowercase letter, one uppercase letter, and one number. 
+answer: please check file_name
+
+Task 2 - Write a basic program for a simple function that takes a password and returns a SHA-256 hash.
+answer: please check file_name
+
+3. Let’s Play CTF
+Task 1 - What is the hidden flag embedded in the chaotic content found in the provided file?
+Use this file to search for finding the answer! 
+answer: *“fl4g{hidden_in_the_binary_forest}.”* 
+
+Task 2 - What is the message embedded in the chaotic paragraph found in the given story?
+Use this file to search for finding the answer! 
+answer: CTF{OnePieceIsReal}
+
+
+
+
+
+
+
+
