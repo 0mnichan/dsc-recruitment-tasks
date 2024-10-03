@@ -1,8 +1,9 @@
+// check for at least one lowercase, uppercase, number, and symbol
+
 package main
 
 import "fmt"
 
-// check for at least one lowercase, uppercase, number, and symbol
 func checkpwd() {
 	var pwd string
 	var lower, upper, digit, symbol bool
