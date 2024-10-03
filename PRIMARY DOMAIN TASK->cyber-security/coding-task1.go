@@ -1,4 +1,4 @@
-// check for at least one lowercase, uppercase, number, and symbol
+// check for at least one lowercase, uppercase,  number, and symbol
 
 package main
 
