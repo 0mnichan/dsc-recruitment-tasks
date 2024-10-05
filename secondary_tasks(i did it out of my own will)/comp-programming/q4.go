@@ -2,26 +2,30 @@
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func ship(bottles int) {
-	sizes := []int{48, 24, 12, 6}
-	names := []string{"xl", "large", "medium", "small"}
-	for i := 0; i < len(sizes); i++ {
-		count := bottles / sizes[i]
-		if count > 0 {
-			fmt.Printf("%d %s ", count, names[i])
-		}
-		bottles %= sizes[i]
+func calc(bottles int) {
+	xl := bottles / 48
+	bottles %= 48
+
+	large := bottles / 24
+	bottles %= 24
+
+	medium := bottles / 12
+	bottles %= 12
+
+	small := bottles / 6
+	bottles %= 6
+
+	if bottles > 0 {
+		small++
 	}
-	fmt.Println()
+	fmt.Printf("%d xl, %d large, %d medium, %d small\n", xl, large, medium, small)
 }
 
 func main() {
 	var bottles int
-	fmt.Println("enter number of bottles to be shipped:")
+	fmt.Print("enter number of bottles")
 	fmt.Scan(&bottles)
-	ship(bottles)
+	calc(bottles)
 }
