@@ -29,10 +29,10 @@ ive tried every rot, cipher, i cant get it, plz help
 
 2. Coding and Debugging Questions (NOTE: Any language can be used)
 Task 1 - Write a basic program for a function that checks if a password contains at least one lowercase letter, one uppercase letter, and one number. 
-answer: please check file_name
+answer: please check coding-task1.go
 
 Task 2 - Write a basic program for a simple function that takes a password and returns a SHA-256 hash.
-answer: please check file_name
+answer: please check coding-task2.go
 
 3. Let’s Play CTF
 Task 1 - What is the hidden flag embedded in the chaotic content found in the provided file?
