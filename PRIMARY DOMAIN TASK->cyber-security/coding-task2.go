@@ -1,3 +1,5 @@
+//SHA-256 hash of pwd
+
 package main
 
 import (
